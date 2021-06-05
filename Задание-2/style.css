@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background:url(https://images.unsplash.com/photo-1515016454727-48ddf26ac789?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1951&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+
+}
+
+.container{
+    margin: 0 auto;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: rgb(17, 16, 16);
+    font-size: medium 20px;
+}
+
+.mainBlock{
+    width: 40em;
+    background-color: rgb(248, 186, 245);
+    margin-bottom: 2em;
+    padding-left: 9em;
+    padding-right: 3em;
+    padding-bottom: 3em;
+    padding-top: 2em;
+    opacity: 0.9;
+    box-shadow: 0 0 30px white;
+}
+
+.mainBlock div{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-column-gap: 20px ;
+}
+
+.textIn{
+    height: 3em;
+    width: 9em;
+    text-align: center;
+    outline: none;
+    border: none;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+.btn{
+    width: 24px;
+}
+
+.taskItem{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    margin-bottom: 10px;
+   
+    
+}
+
+.done{
+    text-decoration: line-through;
+}
